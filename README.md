@@ -25,3 +25,12 @@
 10. Сохраняем файлы с описанием изменений: *git commit -m "Описание"*
 11. Вносим изменения в удалённый репозиторий: *git push -u origin master*
 
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
+
